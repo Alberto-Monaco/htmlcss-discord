@@ -242,6 +242,7 @@ body {
 	text-align: start;
 }
 .main {
+    margin-left: 3rem;
 	margin-top: 3rem;
 	width: 50%;
 	margin-bottom: 3rem;
@@ -322,6 +323,7 @@ body {
 	margin-top: 0.2rem;
 	margin-bottom: 2.7rem;
 }
+
 
 /* end body  */
 /* footer  */
