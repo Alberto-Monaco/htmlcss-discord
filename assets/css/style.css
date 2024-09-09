@@ -68,7 +68,7 @@ header {
 	padding-left: 0.4rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	width: 10%;
+    width: 10%;
 	background-color: #3161e0;
 }
 .login {
@@ -87,10 +87,9 @@ header {
 .link {
 	align-items: center;
 	margin: auto;
-
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	width: 41%;
+	width: 35%;
 	background-color: #3161e0;
 }
 a {
@@ -103,6 +102,28 @@ a {
 body {
 	background-color: #23272a;
 }
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+p{
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .bg-color {
 	background-color: #3161e0;
 }
@@ -113,7 +134,7 @@ body {
 	margin-top: 3rem;
 	width: 50%;
 	margin-bottom: 3rem;
-	background-color: #ee82ee;
+	background-color: #ee82ee00;
 }
 .image{
     background-image: url(/assets/img/jumbo.png);
