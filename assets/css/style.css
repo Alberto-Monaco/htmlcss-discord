@@ -112,21 +112,21 @@ body {
 	font-size: 3rem;
 	font-weight: bold;
 }
-h2 {
+.second-title{
     padding-top: 2.5rem;
     text-align: start;
 	padding-bottom: 2rem;
 	font-size: 2.5rem;
 	font-weight: bold;
 }
-p {
+.second-paragraph {
     text-align: start;
     padding-bottom: 2rem;
     line-height: 2rem;
     font: bold;
     font-size: 19px;
 }
-.subtitle {
+.paragraph {
 	color: white;
 	text-align: center;
 	padding-top: 3rem;
@@ -172,11 +172,22 @@ p {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.bg-image {
+	background-image: url(/assets/img/wave.svg);
+    
+}
 .image1 {
 	background-image: url(../img/item1.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.image2 {
+	background-image: url(../img/item2.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 
 .bg-color-main {
 	background-color: #3161e0;
