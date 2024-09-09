@@ -53,6 +53,7 @@
 	align-items: center;
 }
 
+
 /* end utilities  */
 
 /* header  */
@@ -112,15 +113,20 @@ body {
 	font-weight: bold;
 }
 h2 {
-	color: white;
-	text-align: center;
-	padding-top: 5rem;
-	padding-bottom: 1rem;
+    padding-top: 2.5rem;
+    text-align: start;
+	padding-bottom: 2rem;
 	font-size: 2.5rem;
 	font-weight: bold;
 }
-
 p {
+    text-align: start;
+    padding-bottom: 2rem;
+    line-height: 2rem;
+    font: bold;
+    font-size: 19px;
+}
+.subtitle {
 	color: white;
 	text-align: center;
 	padding-top: 3rem;
@@ -159,6 +165,7 @@ p {
 	width: 50%;
 	margin-bottom: 3rem;
 	background-color: #ee82ee00;
+    margin-right: 10rem;
 }
 .image {
 	background-image: url(/assets/img/jumbo.png);
@@ -182,7 +189,7 @@ p {
 }
 .main2 {
 	width: 20%;
-	background-color: #ffc0cb;
+	background-color: #ffc0cb00;
 }
 .bg-color-main1 {
 	background-color: white;
