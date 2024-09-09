@@ -256,13 +256,13 @@ body {
 	margin-right: 10rem;
 }
 .image {
-	background-image: url(/assets/img/jumbo.png);
+	background-image: url(../img/jumbo.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .bg-image {
-	background-image: url(/assets/img/wave.svg);
+	background-image: url(../img/wave.svg);
 }
 .image1 {
 	background-image: url(../img/item1.svg);
