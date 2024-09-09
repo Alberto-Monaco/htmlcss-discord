@@ -59,33 +59,41 @@ header {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 
-	background-color: rgb(127, 219, 255);
+	background-color: #3161e0;
 }
 .dimension {
-	width: 70%;
+	width: 80%;
 }
 .logo {
 	padding-left: 0.4rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	width: 20%;
-	background-color: #daa520;
+	width: 10%;
+	background-color: #3161e0;
 }
 .login {
+	border-radius: 5px;
 	padding-right: 0.4rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-
+	align-self: center;
 	text-align: end;
-	width: 20%;
-	background-color: #daa520;
+	width: 3%;
+	background-color: white;
 }
-p {
-	text-align: center;
+
+.link {
+    align-items: stretch;
+    margin: auto;
+    padding-right: 2rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	width: 68%;
-	background-color: #daa520;
+	width: 50%;
+	background-color: #3161e0;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 /* end header  */
 
@@ -94,7 +102,7 @@ body {
 	background-color: #23272a;
 }
 .bg-color {
-	background-color: #add8e6;
+	background-color: #3161e0;
 }
 .intestation {
 	text-align: start;
@@ -107,7 +115,7 @@ body {
 }
 
 .bg-color-main {
-	background-color: #000099;
+	background-color: #3161e0;
 	min-height: 600px;
 }
 .main1 {
