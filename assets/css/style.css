@@ -53,7 +53,6 @@
 	align-items: center;
 }
 
-
 /* end utilities  */
 
 /* header  */
@@ -112,19 +111,33 @@ body {
 	font-size: 3rem;
 	font-weight: bold;
 }
-.second-title{
-    padding-top: 2.5rem;
-    text-align: start;
+.second-title {
+	padding-top: 2.5rem;
+	text-align: start;
 	padding-bottom: 2rem;
 	font-size: 2.5rem;
 	font-weight: bold;
 }
 .second-paragraph {
-    text-align: start;
-    padding-bottom: 2rem;
-    line-height: 2rem;
-    font: bold;
-    font-size: 19px;
+	text-align: start;
+	padding-bottom: 2rem;
+	line-height: 2rem;
+	font: bold;
+	font-size: 19px;
+}
+.third-title {
+	padding-top: 2.5rem;
+	text-align: start;
+	padding-bottom: 2rem;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.third-paragraph {
+	text-align: start;
+	padding-bottom: 2rem;
+	line-height: 2rem;
+	font: bold;
+	font-size: 19px;
 }
 .paragraph {
 	color: white;
@@ -134,6 +147,20 @@ body {
 	padding-left: 5rem;
 	line-height: 2rem;
 	font-size: 1.2rem;
+}
+.fourth-title {
+	padding-top: 2.5rem;
+	text-align: start;
+	padding-bottom: 2rem;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.fourth-paragraph {
+	text-align: start;
+	padding-bottom: 2rem;
+	line-height: 2rem;
+	font: bold;
+	font-size: 19px;
 }
 .bottone {
 	width: 30%;
@@ -165,7 +192,7 @@ body {
 	width: 50%;
 	margin-bottom: 3rem;
 	background-color: #ee82ee00;
-    margin-right: 10rem;
+	margin-right: 10rem;
 }
 .image {
 	background-image: url(/assets/img/jumbo.png);
@@ -175,7 +202,6 @@ body {
 
 .bg-image {
 	background-image: url(/assets/img/wave.svg);
-    
 }
 .image1 {
 	background-image: url(../img/item1.svg);
@@ -186,8 +212,14 @@ body {
 	background-image: url(../img/item2.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
-}
+    max-width: 100%;
 
+}
+.image3 {
+	background-image: url(../img/item3.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
 .bg-color-main {
 	background-color: #3161e0;
@@ -207,7 +239,7 @@ body {
 	min-height: 600px;
 }
 .bg-color-main2 {
-	background-color: #d3d3d3;
+    background-color: #d3d3d3;
 	min-height: 600px;
 }
 .bg-color-main3 {
