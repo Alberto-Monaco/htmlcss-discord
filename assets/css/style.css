@@ -52,6 +52,12 @@
 	justify-content: space-between;
 	align-items: center;
 }
+.flex-container4 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;	
+
+}
 
 /* end utilities  */
 
@@ -230,9 +236,9 @@ body {
 	font: bold;
 	font-size: 19px;
 }
-.stars{
-    background-image: url(../img/stars.svg);
-    background-size:contain;
+.stars {
+	background-image: url(../img/stars.svg);
+	background-size: contain;
 }
 
 .bg-color {
@@ -242,7 +248,7 @@ body {
 	text-align: start;
 }
 .main {
-    margin-left: 3rem;
+	margin-left: 3rem;
 	margin-top: 3rem;
 	width: 50%;
 	margin-bottom: 3rem;
@@ -323,20 +329,41 @@ body {
 	margin-top: 0.2rem;
 	margin-bottom: 2.7rem;
 }
-.elenco1{
-	margin-top: 3rem;
+.elenco {
+	margin-top: 5rem;
 	margin-bottom: 3rem;
 }
-.lingua{
+.elenco1 {
+	margin-top: 5rem;
+	margin-bottom: 3rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	line-height: 2.5rem;
+}
+.lingua {
 	padding-top: 1rem;
-padding-bottom: 1rem;
+	padding-bottom: 1rem;
 }
-h2{
+h2 {
 	color: #3161e0;
+	font-size: 2.5rem;
 }
-span{
+span {
 	color: white;
 }
+h4{
+	color: #3161e0;
+}
+
+.elenco2 {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+	
+
 
 /* end body  */
 /* footer  */
