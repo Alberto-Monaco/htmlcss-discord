@@ -103,7 +103,7 @@ a {
 body {
 	background-color: #23272a;
 }
-h2 {
+.title {
 	color: white;
 	text-align: center;
 	padding-top: 5rem;
@@ -111,13 +111,21 @@ h2 {
 	font-size: 3rem;
 	font-weight: bold;
 }
+h2 {
+	color: white;
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 1rem;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
 p {
 	color: white;
 	text-align: center;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 	padding-left: 5rem;
-
 	line-height: 2rem;
 	font-size: 1.2rem;
 }
@@ -131,13 +139,13 @@ p {
 	text-align: center;
 	margin-left: 8rem;
 	border: none;
-    font: bold;
-    font-size: 18px;
+	font: bold;
+	font-size: 18px;
 }
 .bottone1 {
 	background-color: black;
 	color: white;
-    font: bold;
+	font: bold;
 }
 
 .bg-color {
@@ -157,6 +165,11 @@ p {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.image1 {
+	background-image: url(../img/item1.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
 .bg-color-main {
 	background-color: #3161e0;
@@ -165,7 +178,7 @@ p {
 .main1 {
 	width: 40%;
 	margin-bottom: 3rem;
-	background-color: #1e90ff;
+	background-color: #1e8fff00;
 }
 .main2 {
 	width: 20%;
