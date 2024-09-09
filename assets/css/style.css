@@ -55,8 +55,7 @@
 .flex-container4 {
 	display: flex;
 	justify-content: center;
-	flex-direction: column;	
-
+	flex-direction: column;
 }
 
 /* end utilities  */
@@ -351,7 +350,7 @@ h2 {
 span {
 	color: white;
 }
-h4{
+h4 {
 	color: #3161e0;
 }
 
@@ -362,8 +361,6 @@ h4{
 	margin-top: 4rem;
 	margin-bottom: 4rem;
 }
-	
-
 
 /* end body  */
 /* footer  */
