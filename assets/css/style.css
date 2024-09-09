@@ -162,6 +162,22 @@ body {
 	font: bold;
 	font-size: 19px;
 }
+.fifth-paragraph {
+	color: black;
+	text-align: center;
+
+	padding-left: 5rem;
+	line-height: 2rem;
+	font-size: 1.2rem;
+}
+.fifth-title {
+	color: black;
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 1rem;
+	font-size: 3rem;
+	font-weight: bold;
+}
 .bottone {
 	width: 30%;
 	border-radius: 99px;
@@ -179,6 +195,44 @@ body {
 	background-color: black;
 	color: white;
 	font: bold;
+}
+.bottone3 {
+	background-color: #8ea1e1;
+	color: white;
+	font: bold;
+}
+.bottone4 {
+	border-radius: 99px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	border: none;
+	font-size: 16px;
+}
+.subtitle {
+	color: black;
+	text-align: center;
+	line-height: 2rem;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+	font: bold;
+}
+.scarica {
+	color: white;
+	text-align: center;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 5rem;
+	line-height: 2rem;
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+	font: bold;
+	font-size: 19px;
+}
+.stars{
+    background-image: url(../img/stars.svg);
+    background-size:contain;
 }
 
 .bg-color {
@@ -212,8 +266,7 @@ body {
 	background-image: url(../img/item2.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
-    max-width: 100%;
-
+	max-width: 100%;
 }
 .image3 {
 	background-image: url(../img/item3.svg);
@@ -239,11 +292,11 @@ body {
 	min-height: 600px;
 }
 .bg-color-main2 {
-    background-color: #d3d3d3;
+	background-color: #f6f6f6;
 	min-height: 600px;
 }
 .bg-color-main3 {
-	background-color: #d3d3d3;
+	background-color: #f6f6f6;
 	min-height: 900px;
 }
 .bg-color-main4 {
@@ -254,7 +307,7 @@ body {
 	margin-top: 3rem;
 	width: 60%;
 	margin-bottom: 3rem;
-	background-color: #228b22;
+	background-color: #228b2200;
 }
 .main4 {
 	width: 20%;
