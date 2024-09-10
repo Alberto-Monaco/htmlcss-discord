@@ -107,6 +107,7 @@ a {
 /* body  */
 body {
 	background-color: #23272a;
+;
 }
 .title {
 	color: white;
@@ -263,22 +264,8 @@ body {
 .bg-image {
 	background-image: url(../img/wave.svg);
 }
-.image1 {
-	background-image: url(../img/item1.svg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-.image2 {
-	background-image: url(../img/item2.svg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	max-width: 100%;
-}
-.image3 {
-	background-image: url(../img/item3.svg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
+
+
 
 .bg-color-main {
 	background-color: #3161e0;
