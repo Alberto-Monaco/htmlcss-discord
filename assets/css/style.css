@@ -107,7 +107,10 @@ a {
 /* body  */
 body {
 	background-color: #23272a;
-;
+	min-width: 1440px;
+}
+img {
+	max-width: 100%;
 }
 .title {
 	color: white;
@@ -171,7 +174,6 @@ body {
 .fifth-paragraph {
 	color: black;
 	text-align: center;
-
 	padding-left: 5rem;
 	line-height: 2rem;
 	font-size: 1.2rem;
@@ -268,7 +270,7 @@ body {
 	background-color: white;
 	margin-bottom: -4px;
 }
-.reverse{
+.reverse {
 	rotate: 180deg;
 }
 
