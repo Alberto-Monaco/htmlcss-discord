@@ -264,8 +264,13 @@ body {
 .bg-image {
 	background-image: url(../img/wave.svg);
 }
-
-
+.wave-1hkxOo {
+	background-color: white;
+	margin-bottom: -4px;
+}
+.reverse{
+	rotate: 180deg;
+}
 
 .bg-color-main {
 	background-color: #3161e0;
